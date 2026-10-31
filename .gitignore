@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build output
+# (We can keep dist/ if needed or ignore it. For GitHub Pages, keeping root index.html is great!)
+.vite/
+
+# System and logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# Environment & local files
+.env
+.env.local

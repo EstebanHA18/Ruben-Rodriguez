@@ -1,0 +1,5 @@
+# robots.txt for Ruben Rodriguez - Creador de Contenido & Comunicador
+User-agent: *
+Allow: /
+
+Sitemap: https://rubenrodriguez.com/sitemap.xml
