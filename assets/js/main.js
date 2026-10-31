@@ -159,6 +159,8 @@ function initContactForm() {
       submitBtn.disabled = false;
       submitBtn.innerHTML = originalText;
       form.reset();
+      const phoneInput = document.getElementById('userPhone');
+      if (phoneInput) phoneInput.value = '+506 ';
 
       if (alertBox) {
         alertBox.style.display = 'block';
